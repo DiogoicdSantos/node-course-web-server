@@ -1,3 +1,4 @@
+require("dotenv").config();
 const request = require("request");
 const mapboxtoken = process.env.MAPBOXT_TOKEN;
 

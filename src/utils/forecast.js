@@ -1,3 +1,4 @@
+require("dotenv").config();
 const request = require("request");
 const weatherstackkey = process.env.WEATHERSTACK_KEY;
 
